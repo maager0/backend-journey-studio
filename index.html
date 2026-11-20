@@ -101,8 +101,8 @@ if(window.matchMedia)window.matchMedia('(prefers-color-scheme: dark)').addEventL
 
 // Cloud sync is optional. Set public endpoint + publishable key in this file after creating Supabase project.
 // Never put service_role, secret key, or database password in a static website.
-const CLOUD_URL=''; // example: https://PROJECT.supabase.co
-const CLOUD_PUBLISHABLE_KEY=''; // sb_publishable_... or legacy anon key
+const CLOUD_URL='https://gdbufjttzgorbwaxpzps.supabase.co'; // public endpoint
+const CLOUD_PUBLISHABLE_KEY='sb_publishable_2AYvOWtgQE1ESuu3SrR90Q_uWd_wVVV'; // sb_publishable_... or legacy anon key
 const CLOUD_READY=!!(CLOUD_URL&&CLOUD_PUBLISHABLE_KEY);
 const CLOUD_SESSION_KEY='backend-journey-cloud-session-v1';
 let cloudSession=null, cloudUser=null, cloudTimer=null, cloudSyncBusy=false, cloudSyncAgain=false;
